@@ -45,11 +45,21 @@ class ProblemController extends Controller
     }
 
      public function actionTable()
-    {
-        
+    { if($_POST){
+            $startDT = $_POST['startDT'];
+            $endDT = $_POST['endDT'];
 
-        return $this->render('table', [
-            
+            // $jadval = ProblemMonitorings::find()->andFilterWhere(['between', 'date', $startDT,$endDT])->all();
+            $jadval = Problem::find()->andFilterWhere(['between', 'date', $startDT,$endDT])->all();
+
+            return $this->render('table',[
+                'jadval'=>$jadval
+            ]);
+        }
+        $jadval = Problem::find()->all();
+
+        return $this->render('table',[
+//            'jadval'=>$jadval
         ]);
     }
 

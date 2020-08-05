@@ -74,9 +74,9 @@ $action = Yii::$app->controller->id;
 
     NavBar::end();
     ?>
-   <!--  <?=($action=='problem')?'container-fluid':'container'?>
-    <div class="container"> -->
-    <div class="<?=($action == 'problem')?'container-fluid':'container'?>">
+   
+    <div class="container">
+    
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>

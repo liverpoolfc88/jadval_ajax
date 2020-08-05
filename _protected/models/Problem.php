@@ -1,7 +1,7 @@
 <?php
 
 namespace app\models;
-
+// use app\models\Sector;
 use Yii;
 
 /**
@@ -78,5 +78,23 @@ class Problem extends \yii\db\ActiveRecord
             'money_spent' => 'Money Spent',
             'problem_status' => 'Problem Status',
         ];
+    }
+
+     public function getUchastka()
+    {
+        return $this->hasOne(Sectors::className(), ['id' => 'sector']);
+    }
+
+    public function getBolim()
+    {
+        return $this->hasOne(Departments::className(), ['id' => 'department']);
+    }
+    public function getUserinfo()
+    {
+        return $this->hasOne(User::className(), ['id' => 'user_id']);
+    }
+    public function getDefectName()
+    {
+        return $this->hasOne(TagAssign::className(), ['post_id' => 'id']);
     }
 }

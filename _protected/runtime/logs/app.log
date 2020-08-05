@@ -215,3 +215,1872 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2020-08-05 09:19:05 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\controllers\ProblemMonitorings' not found in G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php:59
+Stack trace:
+#0 [internal function]: app\controllers\ProblemController->actionTable()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#7 {main}
+2020-08-05 09:19:05 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '65196'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596608345.367
+    'REQUEST_TIME' => 1596608345
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:19:18 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Please specify the "model" property. in G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\widgets\DetailView.php:133
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#1 [internal function]: yii\base\BaseObject->__construct(Array)
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\di\Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#6 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\view.php(30): yii\base\Widget::widget(Array)
+#7 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#8 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('view', Array, Object(app\controllers\ProblemController))
+#11 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(63): yii\base\Controller->render('view', Array)
+#12 [internal function]: app\controllers\ProblemController->actionTable()
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#15 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#16 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#17 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#19 {main}
+2020-08-05 09:19:15 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '65195'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596608355.8
+    'REQUEST_TIME' => 1596608355
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:25:44 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Please specify the "model" property. in G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\widgets\DetailView.php:133
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#1 [internal function]: yii\base\BaseObject->__construct(Array)
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\di\Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#6 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\view.php(30): yii\base\Widget::widget(Array)
+#7 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#8 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('view', Array, Object(app\controllers\ProblemController))
+#11 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(63): yii\base\Controller->render('view', Array)
+#12 [internal function]: app\controllers\ProblemController->actionTable()
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#15 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#16 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#17 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#19 {main}
+2020-08-05 09:25:42 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '65323'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596608742.138
+    'REQUEST_TIME' => 1596608742
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:26:34 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Please specify the "model" property. in G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\widgets\DetailView.php:133
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#1 [internal function]: yii\base\BaseObject->__construct(Array)
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\di\Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#6 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\view.php(30): yii\base\Widget::widget(Array)
+#7 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#8 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('view', Array, Object(app\controllers\ProblemController))
+#11 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(63): yii\base\Controller->render('view', Array)
+#12 [internal function]: app\controllers\ProblemController->actionTable()
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#15 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#16 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#17 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#19 {main}
+2020-08-05 09:26:31 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '65322'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596608791.747
+    'REQUEST_TIME' => 1596608791
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:27:04 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Please specify the "model" property. in G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\widgets\DetailView.php:133
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#1 [internal function]: yii\base\BaseObject->__construct(Array)
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\di\Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#6 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\view.php(30): yii\base\Widget::widget(Array)
+#7 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#8 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('view', Array, Object(app\controllers\ProblemController))
+#11 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(63): yii\base\Controller->render('view', Array)
+#12 [internal function]: app\controllers\ProblemController->actionTable()
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#15 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#16 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#17 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#19 {main}
+2020-08-05 09:27:02 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '65353'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596608822.286
+    'REQUEST_TIME' => 1596608822
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:27:38 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Please specify the "model" property. in G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\widgets\DetailView.php:133
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\widgets\DetailView->init()
+#1 [internal function]: yii\base\BaseObject->__construct(Array)
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\di\Container.php(400): ReflectionClass->newInstanceArgs(Array)
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build('yii\\widgets\\Det...', Array, Array)
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get('yii\\widgets\\Det...', Array, Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#6 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\view.php(30): yii\base\Widget::widget(Array)
+#7 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#8 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('view', Array, Object(app\controllers\ProblemController))
+#11 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(63): yii\base\Controller->render('view', Array)
+#12 [internal function]: app\controllers\ProblemController->actionTable()
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#15 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#16 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#17 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#19 {main}
+2020-08-05 09:27:35 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '65354'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596608855.741
+    'REQUEST_TIME' => 1596608855
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:29:08 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\controllers\ProblemMonitorings' not found in G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php:59
+Stack trace:
+#0 [internal function]: app\controllers\ProblemController->actionTable()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#7 {main}
+2020-08-05 09:29:05 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '65352'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596608944.826
+    'REQUEST_TIME' => 1596608944
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:29:17 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\controllers\ProblemMonitorings' not found in G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php:59
+Stack trace:
+#0 [internal function]: app\controllers\ProblemController->actionTable()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#7 {main}
+2020-08-05 09:29:17 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '65351'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596608957.295
+    'REQUEST_TIME' => 1596608957
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:29:41 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'kartik\date\DatePicker' not found in G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php:26
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#4 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(63): yii\base\Controller->render('table', Array)
+#5 [internal function]: app\controllers\ProblemController->actionTable()
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#8 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#12 {main}
+2020-08-05 09:29:36 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '65388'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596608976.752
+    'REQUEST_TIME' => 1596608976
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:37:51 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Problem::uchastka in G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('uchastka')
+#1 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(131): yii\db\BaseActiveRecord->__get('uchastka')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#7 [internal function]: app\controllers\ProblemController->actionTable()
+#8 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#14 {main}
+2020-08-05 09:37:51 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49263'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596609471.696
+    'REQUEST_TIME' => 1596609471
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:39:13 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\models\Sectors' not found in G:\OSPanel\domains\jadval_ajax\_protected\models\Problem.php:85
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php(139): app\models\Problem->getUchastka()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('uchastka')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(131): yii\db\BaseActiveRecord->__get('uchastka')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#8 [internal function]: app\controllers\ProblemController->actionTable()
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#15 {main}
+2020-08-05 09:39:13 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49256'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596609553.3
+    'REQUEST_TIME' => 1596609553
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:41:33 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\models\Sectors' not found in G:\OSPanel\domains\jadval_ajax\_protected\models\Problem.php:85
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php(139): app\models\Problem->getUchastka()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('uchastka')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(131): yii\db\BaseActiveRecord->__get('uchastka')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#8 [internal function]: app\controllers\ProblemController->actionTable()
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#15 {main}
+2020-08-05 09:41:33 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49364'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596609693.514
+    'REQUEST_TIME' => 1596609693
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:41:42 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\models\Sectors' not found in G:\OSPanel\domains\jadval_ajax\_protected\models\Problem.php:85
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php(139): app\models\Problem->getUchastka()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('uchastka')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(131): yii\db\BaseActiveRecord->__get('uchastka')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#8 [internal function]: app\controllers\ProblemController->actionTable()
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#15 {main}
+2020-08-05 09:41:42 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49369'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596609702.61
+    'REQUEST_TIME' => 1596609702
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:43:01 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\models\Sectors' not found in G:\OSPanel\domains\jadval_ajax\_protected\models\Problem.php:85
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php(139): app\models\Problem->getUchastka()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('uchastka')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(131): yii\db\BaseActiveRecord->__get('uchastka')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#8 [internal function]: app\controllers\ProblemController->actionTable()
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#15 {main}
+2020-08-05 09:43:01 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49367'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596609781.701
+    'REQUEST_TIME' => 1596609781
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:43:20 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\models\Sector' not found in G:\OSPanel\domains\jadval_ajax\_protected\models\Problem.php:85
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php(139): app\models\Problem->getUchastka()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('uchastka')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(131): yii\db\BaseActiveRecord->__get('uchastka')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#8 [internal function]: app\controllers\ProblemController->actionTable()
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#15 {main}
+2020-08-05 09:43:20 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49392'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596609800.086
+    'REQUEST_TIME' => 1596609800
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:43:29 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\models\Sector' not found in G:\OSPanel\domains\jadval_ajax\_protected\models\Problem.php:85
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php(139): app\models\Problem->getUchastka()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('uchastka')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(131): yii\db\BaseActiveRecord->__get('uchastka')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#8 [internal function]: app\controllers\ProblemController->actionTable()
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#15 {main}
+2020-08-05 09:43:28 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49397'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596609808.859
+    'REQUEST_TIME' => 1596609808
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:44:39 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\models\Sectors' not found in G:\OSPanel\domains\jadval_ajax\_protected\models\Problem.php:85
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php(139): app\models\Problem->getUchastka()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('uchastka')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(131): yii\db\BaseActiveRecord->__get('uchastka')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#8 [internal function]: app\controllers\ProblemController->actionTable()
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#15 {main}
+2020-08-05 09:44:39 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49402'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596609879.784
+    'REQUEST_TIME' => 1596609879
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:45:29 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\models\Departments' not found in G:\OSPanel\domains\jadval_ajax\_protected\models\Problem.php:90
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php(139): app\models\Problem->getBolim()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('bolim')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(135): yii\db\BaseActiveRecord->__get('bolim')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#8 [internal function]: app\controllers\ProblemController->actionTable()
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#15 {main}
+2020-08-05 09:45:29 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49447'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596609929.414
+    'REQUEST_TIME' => 1596609929
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:46:09 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\models\Departments' not found in G:\OSPanel\domains\jadval_ajax\_protected\models\Problem.php:90
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php(139): app\models\Problem->getBolim()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('bolim')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(135): yii\db\BaseActiveRecord->__get('bolim')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#8 [internal function]: app\controllers\ProblemController->actionTable()
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#15 {main}
+2020-08-05 09:46:09 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49436'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596609969.19
+    'REQUEST_TIME' => 1596609969
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:46:31 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\models\TagAssign' not found in G:\OSPanel\domains\jadval_ajax\_protected\models\Problem.php:98
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php(139): app\models\Problem->getDefectName()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('defectName')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(138): yii\db\BaseActiveRecord->__get('defectName')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#8 [internal function]: app\controllers\ProblemController->actionTable()
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#15 {main}
+2020-08-05 09:46:31 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49492'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596609991.75
+    'REQUEST_TIME' => 1596609991
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:47:18 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][Error] Error: Class 'app\models\TagAssign' not found in G:\OSPanel\domains\jadval_ajax\_protected\models\Problem.php:98
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Component.php(139): app\models\Problem->getDefectName()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('defectName')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(138): yii\db\BaseActiveRecord->__get('defectName')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#8 [internal function]: app\controllers\ProblemController->actionTable()
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#12 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#13 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#15 {main}
+2020-08-05 09:47:17 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49491'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596610037.846
+    'REQUEST_TIME' => 1596610037
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:48:07 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dili.user' doesn't exist in G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php(1159): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php(415): yii\db\Command->queryInternal('fetch', NULL)
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Query.php(285): yii\db\Command->queryOne()
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(186): yii\db\ActiveQuery->one()
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(301): yii\db\ActiveQuery->findFor('userinfo', Object(app\models\Problem))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(140): yii\db\BaseActiveRecord->__get('userinfo')
+#8 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', '[<span class="s...')
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#12 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#13 [internal function]: app\controllers\ProblemController->actionTable()
+#14 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#16 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#17 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#18 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#20 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dili.user' doesn't exist
+The SQL being executed was: SELECT * FROM `user` WHERE `id`=69 in G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Schema.php:677
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php(1159): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php(415): yii\db\Command->queryInternal('fetch', NULL)
+#3 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Query.php(285): yii\db\Command->queryOne()
+#4 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(186): yii\db\ActiveQuery->one()
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(301): yii\db\ActiveQuery->findFor('userinfo', Object(app\models\Problem))
+#7 G:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(140): yii\db\BaseActiveRecord->__get('userinfo')
+#8 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('G:\\OSPanel\\doma...')
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', '[<span class="s...')
+#10 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#11 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#12 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(56): yii\base\Controller->render('table', Array)
+#13 [internal function]: app\controllers\ProblemController->actionTable()
+#14 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#16 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#17 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#18 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'dili.user' doesn't exist
+)
+
+2020-08-05 09:48:07 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => '-Gb7mmnvisZKq8WHB1Chu2DIje8gzk_Q1HbiyS7inlGyErirAYLvjx3_vdNsaZTXE4O12H-rLrGzJrqeSrruFQ=='
+    'startDT' => '2020-08-02'
+    'endDT' => '2020-08-03'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '134'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://jadvalajax.loc'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49489'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596610087.019
+    'REQUEST_TIME' => 1596610087
+    'argv' => []
+    'argc' => 0
+]
+2020-08-05 09:55:51 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][error][ParseError] ParseError: syntax error, unexpected '?>' in G:\OSPanel\domains\jadval_ajax\_protected\views\layouts\main.php:79
+Stack trace:
+#0 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('G:\\OSPanel\\doma...', Array)
+#1 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(424): yii\base\View->renderFile('G:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#2 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(410): yii\base\Controller->renderContent('\r\n\r\n<div style=...')
+#3 G:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(63): yii\base\Controller->render('table', Array)
+#4 [internal function]: app\controllers\ProblemController->actionTable()
+#5 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#7 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#8 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('problem/table', Array)
+#9 G:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 G:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#11 {main}
+2020-08-05 09:55:48 [127.0.0.1][-][dpsdnopllg4jjbocji1j29cbkvqr7cfm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'dpsdnopllg4jjbocji1j29cbkvqr7cfm'
+    '_csrf' => '29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"JtC1hmeIWTxTk95lsK87_eaagPXWdXpD\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'jadvalajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://jadvalajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dpsdnopllg4jjbocji1j29cbkvqr7cfm; _csrf=29a2b8eee2ce14a09cfcf0f83b64d92825be35ad9a9376c5797c550223328e95a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22JtC1hmeIWTxTk95lsK87_eaagPXWdXpD%22%3B%7D'
+    'PATH' => 'g:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;g:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;g:\\ospanel\\modules\\php\\PHP_7.2-x64;g:\\ospanel\\modules\\wget\\bin;g:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64\\bin;g:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.2-7.3-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'jadvalajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'G:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'G:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '49594'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1596610548.858
+    'REQUEST_TIME' => 1596610548
+    'argv' => []
+    'argc' => 0
+]
