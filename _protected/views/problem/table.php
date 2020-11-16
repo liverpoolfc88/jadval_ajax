@@ -49,7 +49,7 @@ $this->params['breadcrumbs'][] = $this->title;
         ]); ?>
     </div>
     <div class="col-md-3">
-        <?= Html::submitButton('Qidirish', ['class' => 'btn btn-primary']) ?>
+        <?= Html::submitButton('Qidirish', ['class' => ' btn btn-primary']) ?>
     </div>
     <?php ActiveForm::end(); ?>
 
@@ -92,10 +92,22 @@ $this->params['breadcrumbs'][] = $this->title;
 
 </script>
 
+<!--<input class="jadval" type="button" value="button">-->
+
+<section style="padding: 50px 0">
+    <form action="/action_page.php">
+        <input type="date" id="startDT" name="startDT">
+        <input type="date" id="endDT" name="endDT">
+        <input class="jadval" type="submit">
+    </form>
+</section>
 
 
+<section >
+    <div id="loading" style="display: none">Kuting....</div>
+</section>
 
-<section>
+<section id="section">
     <div class="container-fluid">
         <div style="overflow-x:auto;" id="stil" class="row">
             <table border="1" id="tblData"  class=" table table-striped">
@@ -181,9 +193,19 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
     var w = window.innerWidth;
     // var h = window.innerHeight-190;
     var h = window.innerHeight-280;
     document.getElementById("stil").style.height = h+"px";
+</script>
+<script>
+    $(function(){
+        $(".jadval").click(function () {
+            // event.preventDefault();
+            $("#loading").show();
+
+        });
+    });
 </script>
