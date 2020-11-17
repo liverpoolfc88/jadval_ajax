@@ -14,7 +14,7 @@ use kartik\date\DatePicker;
 $this->title = 'Problems';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <div style="padding-bottom: 50px" class="col-md-12">
     <h3 style="text-align:center">  Vaqt oralig'ida ma'lumotlarni excelga export qilish!</h3>
@@ -27,6 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'options' => ['placeholder' => 'Dan ',
                 // 'value' => date('Y-m-d')
                 'class'=> 'inputform',
+                'id'=>'startDT'
             ],
             'name'=> 'startDT',
             'pluginOptions' => [
@@ -40,6 +41,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'options' => ['placeholder' => 'Gacha',
                 // 'value' => date('Y-m-d')
                 'class'=> 'inputform',
+                'id'=>'endDT'
             ],
             'name'=> 'endDT',
             'pluginOptions' => [
@@ -49,7 +51,8 @@ $this->params['breadcrumbs'][] = $this->title;
         ]); ?>
     </div>
     <div class="col-md-3">
-        <?= Html::submitButton('Qidirish', ['class' => ' btn btn-primary']) ?>
+<!--        --><?//= Html::submitButton('Qidirish', ['class' => ' btn btn-primary']) ?>
+        <input class="jadval btn btn-primary" type="button" value="bossss">
     </div>
     <?php ActiveForm::end(); ?>
 
@@ -93,21 +96,84 @@ $this->params['breadcrumbs'][] = $this->title;
 </script>
 
 <!--<input class="jadval" type="button" value="button">-->
+<!---->
+<!--<section style="padding: 50px 0">-->
+<!--    <form action="/action_page.php">-->
+<!--    <form>-->
+<!--        <input type="date" id="startDT" name="startDT">-->
+<!--        <input type="date" id="endDT" name="endDT">-->
+<!--        <input class="jadval" type="button" value="bossss">-->
+<!--    </form>-->
+<!--</section>-->
+<section style="padding-bottom: 50px" >
+    <div >
+        <p class="salom">LiverpoolFC </p>
+    </div>
+    <div >
+        <input type="text" name="nomi" class="name">
+        <input type="text" name="maydoni" class="maydon">
+        <input type="button" class="ok" value="ok">
+    </div>
 
-<section style="padding: 50px 0">
-    <form action="/action_page.php">
-        <input type="date" id="startDT" name="startDT">
-        <input type="date" id="endDT" name="endDT">
-        <input class="jadval" type="submit">
-    </form>
 </section>
+
+<script>
+    $(function(){
+        $(".jadval").click(function (event) {
+            event.preventDefault();
+            $("#loading").show();
+            $("#section").show();
+
+            $.ajax({
+                method: "POST",
+                data: {
+                    'startDT':$('#startDT').val(),
+                    'endDT':$('#endDT').val()
+                },
+                dataType: 'json',
+                url: '/problem/table',
+                succes: function (data) {
+                    console.log(data);
+                },
+                error:function(e){
+                    console.log(e);
+                }.bind(this),
+            });
+        });
+    });
+
+
+    $(function () {
+        // $(".name").bind('blur', xodisa)
+        $(".ok").bind('click', xodisa)
+    });
+    function xodisa() {
+        $(".salom").html('Liverpoolfc CHEMPION')
+        $.ajax({
+            method: "POST",
+
+            data: {
+                'nomi':$('.name').val(),
+                'maydoni':$('.maydon').val()
+            },
+            dataType: 'json',
+            url: '/tuman/create',
+            succes: function (data) {
+                console.log(data);
+            },
+            error:function(e){
+                console.log(e);
+            }.bind(this),
+        });
+    }
+</script>
 
 
 <section >
     <div id="loading" style="display: none">Kuting....</div>
 </section>
 
-<section id="section">
+<section  style="display: none" id="section">
     <div class="container-fluid">
         <div style="overflow-x:auto;" id="stil" class="row">
             <table border="1" id="tblData"  class=" table table-striped">
@@ -191,21 +257,12 @@ $this->params['breadcrumbs'][] = $this->title;
 
 </style>
 
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!---->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
 <script>
     var w = window.innerWidth;
     // var h = window.innerHeight-190;
     var h = window.innerHeight-280;
     document.getElementById("stil").style.height = h+"px";
-</script>
-<script>
-    $(function(){
-        $(".jadval").click(function () {
-            // event.preventDefault();
-            $("#loading").show();
-
-        });
-    });
 </script>

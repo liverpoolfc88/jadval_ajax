@@ -2274,3 +2274,1696 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2020-11-17 09:47:38 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "action_page.php". in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('action_page.php', Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-11-17 09:47:38 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = [
+    'startDT' => ''
+    'endDT' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '50142'
+    'REDIRECT_URL' => '/action_page.php'
+    'REDIRECT_QUERY_STRING' => 'startDT=&endDT='
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'startDT=&endDT='
+    'REQUEST_URI' => '/action_page.php?startDT=&endDT='
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605595658.083
+    'REQUEST_TIME' => 1605595658
+    'argv' => [
+        0 => 'startDT=&endDT='
+    ]
+    'argc' => 1
+]
+2020-11-17 09:48:04 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "action_page.php". in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('action_page.php', Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-11-17 09:48:04 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = [
+    'startDT' => ''
+    'endDT' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '50143'
+    'REDIRECT_URL' => '/action_page.php'
+    'REDIRECT_QUERY_STRING' => 'startDT=&endDT='
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'startDT=&endDT='
+    'REQUEST_URI' => '/action_page.php?startDT=&endDT='
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605595684.114
+    'REQUEST_TIME' => 1605595684
+    'argv' => [
+        0 => 'startDT=&endDT='
+    ]
+    'argc' => 1
+]
+2020-11-17 09:49:02 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "action_page.php". in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('action_page.php', Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-11-17 09:49:02 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = [
+    'startDT' => ''
+    'endDT' => ''
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '50142'
+    'REDIRECT_URL' => '/action_page.php'
+    'REDIRECT_QUERY_STRING' => 'startDT=&endDT='
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'startDT=&endDT='
+    'REQUEST_URI' => '/action_page.php?startDT=&endDT='
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605595742.755
+    'REQUEST_TIME' => 1605595742
+    'argv' => [
+        0 => 'startDT=&endDT='
+    ]
+    'argc' => 1
+]
+2020-11-17 12:28:18 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: request in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Controller.php:187
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#6 {main}
+2020-11-17 12:28:18 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'Asaka'
+    'maydoni' => '26'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '21'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'NI7AlK0btqhBFsUpZcpBewLqGJ_DRf1M7vkBnWdWA7pY-5nawHGOxS9nqG8CjzkBb6BMq68s0BSlvGTFIG4z7Q=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '54892'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605605298.163
+    'REQUEST_TIME' => 1605605298
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 12:28:45 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: request in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Controller.php:187
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#6 {main}
+2020-11-17 12:28:45 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'asaka'
+    'maydoni' => '50'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '21'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'jltAdZCxc_v5k5BaJm_T1nfnjKbs4Wl60dwvySe5KbDiLhk7_dtLlpfi_RxBKqusGq3YkoCIRCKamUqRYIEZ5w=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '54924'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605605325.032
+    'REQUEST_TIME' => 1605605325
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 12:28:58 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: request in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Controller.php:187
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#6 {main}
+2020-11-17 12:28:58 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => ''
+    'maydoni' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '14'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'PEaMiwkOXTXp3l5agyHlp6IAa8lk6lldFqNi7aeQv6JQM9XFZGRlWIevMxzkZJ3dz0o__QiDdAVd5ge14KiP9Q=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '54929'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605605338.268
+    'REQUEST_TIME' => 1605605338
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 12:29:51 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: request in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Controller.php:187
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#6 {main}
+2020-11-17 12:29:51 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'asaka'
+    'maydoni' => '50'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '21'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'P3xneMg5QiMUxTKZru9mY4TfRfRkna_lzKtEUdc4YCxTCT42pVN6Tnq0X9_Jqh4Z6ZURwAj0gr2H7iEJkABQew=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '54969'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605605391.165
+    'REQUEST_TIME' => 1605605391
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 12:32:19 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: request in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Controller.php:187
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#6 {main}
+2020-11-17 12:32:19 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'sasas'
+    'maydoni' => '453'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '22'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'mqObwJixs_O9Zjl1tmAUNNTkWOcRP5gNRZjo5BHdf1f21sKO9duLntMXVDPRJWxOua4M031WtVUO3Y28VuVPAA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '55063'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605605539.347
+    'REQUEST_TIME' => 1605605539
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 12:52:35 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: request in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Controller.php:187
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#6 {main}
+2020-11-17 12:52:35 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'sasas'
+    'maydoni' => '453'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '22'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'mqObwJixs_O9Zjl1tmAUNNTkWOcRP5gNRZjo5BHdf1f21sKO9duLntMXVDPRJWxOua4M031WtVUO3Y28VuVPAA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '56696'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605606754.976
+    'REQUEST_TIME' => 1605606754
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 12:52:44 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: request in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Controller.php:187
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#6 {main}
+2020-11-17 12:52:44 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '56701'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605606764.546
+    'REQUEST_TIME' => 1605606764
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 13:59:17 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: request in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Controller.php:187
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#6 {main}
+2020-11-17 13:59:16 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'asaka'
+    'maydoni' => '20'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '21'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'cEpf08uIiApN-navqqdpCMgb0X74W-qMOJWxMXdpLVwcPwadpuKwZyOLG-nN4hFypVGFSpQyx9Rz0NRpMFEdCw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '59155'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605610756.931
+    'REQUEST_TIME' => 1605610756
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 14:02:42 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: request in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Controller.php:187
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#6 {main}
+2020-11-17 14:02:42 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'asaka'
+    'maydoni' => '20'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '21'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_X_CSRF_TOKEN' => 'tzsj-6XdeMXvpM-oymZGJM02K7tbJsAyTcY-hvAg-yjbTnq1yLdAqIHVou6tIz5eoHx_jzdP7WoGg1vetxjLfw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '59336'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605610962.313
+    'REQUEST_TIME' => 1605610962
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 14:05:27 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: request in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Controller.php:187
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#6 {main}
+2020-11-17 14:05:27 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'asaka'
+    'maydoni' => '20'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '21'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'fnTynfcGaf-hlHW7d-qugaVTGYxv3V1S6yIiVSf0lu4SAavTmmxRks_lGP0Qr9b7yBlNuAO0cAqgZ0cNYMymuQ=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '59414'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605611127.959
+    'REQUEST_TIME' => 1605611127
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 14:11:11 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][Error] Error: Class 'app\models\Viloyat' not found in D:\OSPanel\domains\jadval_ajax\_protected\models\Tuman.php:33
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(465): app\models\Tuman->rules()
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(421): yii\base\Model->createValidators()
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(190): yii\base\Model->getValidators()
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(355): yii\base\Model->scenarios()
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveRecord.php(560): yii\base\Model->validate(NULL)
+#5 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\OSPanel\domains\jadval_ajax\_protected\controllers\TumanController.php(25): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\TumanController->actionCreate()
+#8 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#10 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#12 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#14 {main}
+2020-11-17 14:11:11 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'asaka'
+    'maydoni' => '20'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '21'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => '0gcGWXJAX9c_2bC9fHoqTW15YrwUMq_ik_zfCZ6tqRi-cl8XHypnulGo3fsbP1I3ADM2iHhbgrrYubpR2ZWZTw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '59662'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605611471.453
+    'REQUEST_TIME' => 1605611471
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 14:14:28 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "problem/tuman/create". in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('problem/tuman/c...', Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-11-17 14:14:28 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'asaka'
+    'maydoni' => '20'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '21'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'xtRqWe2GS4YqOwiVewibbQhaIKehtTJQ6ZJVCoZmEmSqoTMXgOxz60RKZdMcTeMXZRB0k83cHwii1zBSwV4iMw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '59801'
+    'REDIRECT_URL' => '/problem/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605611668.123
+    'REQUEST_TIME' => 1605611668
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 14:17:12 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "problem/tuman/create". in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('problem/tuman/c...', Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php:116
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#2 {main}
+2020-11-17 14:17:12 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'asaka'
+    'maydoni' => '12'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '21'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => '1e8wKJ-UF0sjPviMkok1DRc74MwIAt-yNAYK2LMlEx65mmlm8v4vJk1Plcr1zE13enG0-GRr8up_Q2-A9B0jSQ=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '59925'
+    'REDIRECT_URL' => '/problem/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605611832.474
+    'REQUEST_TIME' => 1605611832
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 14:17:36 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][Error] Error: Class 'app\models\Viloyat' not found in D:\OSPanel\domains\jadval_ajax\_protected\models\Tuman.php:33
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(465): app\models\Tuman->rules()
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(421): yii\base\Model->createValidators()
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(190): yii\base\Model->getValidators()
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(355): yii\base\Model->scenarios()
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveRecord.php(560): yii\base\Model->validate(NULL)
+#5 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\OSPanel\domains\jadval_ajax\_protected\controllers\TumanController.php(25): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\TumanController->actionCreate()
+#8 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#10 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#12 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#14 {main}
+2020-11-17 14:17:36 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'asaka'
+    'maydoni' => '12'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '21'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'Vhcp5PHmjwnghYeuEEYJ5vhLXeY2jilOzcLycH0DsEc6YnCqnIy3ZI706uh3A3GclQEJ0lrnBBaGh5coOjuAEA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '60026'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605611856.619
+    'REQUEST_TIME' => 1605611856
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 14:21:17 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][Error] Error: Class 'app\models\Viloyat' not found in D:\OSPanel\domains\jadval_ajax\_protected\models\Tuman.php:33
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(465): app\models\Tuman->rules()
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(421): yii\base\Model->createValidators()
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(190): yii\base\Model->getValidators()
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(355): yii\base\Model->scenarios()
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveRecord.php(560): yii\base\Model->validate(NULL)
+#5 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\OSPanel\domains\jadval_ajax\_protected\controllers\TumanController.php(28): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\TumanController->actionCreate()
+#8 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#10 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#12 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#14 {main}
+2020-11-17 14:21:17 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'sadsa'
+    'maydoni' => 'sad'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '22'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => '5be463waqg_zOk3__Rke3fLQGFTi8Tz8M3LN62bRp3mJwuGlEXCSYp1LILmaXGann5pMYI6YEaR4N6izIemXLg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '60172'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605612077.159
+    'REQUEST_TIME' => 1605612077
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 14:22:12 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][Error] Error: Class 'app\models\Viloyat' not found in D:\OSPanel\domains\jadval_ajax\_protected\models\Tuman.php:33
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(465): app\models\Tuman->rules()
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(421): yii\base\Model->createValidators()
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(190): yii\base\Model->getValidators()
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(355): yii\base\Model->scenarios()
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveRecord.php(560): yii\base\Model->validate(NULL)
+#5 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\OSPanel\domains\jadval_ajax\_protected\controllers\TumanController.php(28): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\TumanController->actionCreate()
+#8 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#10 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#12 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#14 {main}
+2020-11-17 14:22:12 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'casca'
+    'maydoni' => 'scas'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '23'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => '3kVTFCqc4vSIF3t4Oy-xjayCCIQxiDxyQkfTvmhnNJGyMApaR_bameZmFj5casn3wchcsF3hESoJArbmL18Exg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '60223'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605612132.647
+    'REQUEST_TIME' => 1605612132
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 14:22:57 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][Error] Error: Class 'app\models\Viloyat' not found in D:\OSPanel\domains\jadval_ajax\_protected\models\Tuman.php:33
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(465): app\models\Tuman->rules()
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(421): yii\base\Model->createValidators()
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(190): yii\base\Model->getValidators()
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Model.php(355): yii\base\Model->scenarios()
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveRecord.php(560): yii\base\Model->validate(NULL)
+#5 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\OSPanel\domains\jadval_ajax\_protected\controllers\TumanController.php(28): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\TumanController->actionCreate()
+#8 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#10 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#12 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#14 {main}
+2020-11-17 14:22:56 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'sdsd'
+    'maydoni' => 'sds'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '21'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'W6-RUOin5vEOflUr1-TH4ebS1b2RanMgH4fZEFf_cdM32sgehc3enGAPOG2wob-bi5iBif0DXnhUwrxIEMdBhA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '60282'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605612176.933
+    'REQUEST_TIME' => 1605612176
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 14:24:30 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dili`.`tuman`, CONSTRAINT `viloyat_to_tuman` FOREIGN KEY (`id`) REFERENCES `viloyat` (`id`)) in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php:1299
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php(1299): PDOStatement->execute()
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php(1099): yii\db\Command->internalExecute('INSERT INTO `tu...')
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Schema.php(433): yii\db\Command->execute()
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('tuman', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\OSPanel\domains\jadval_ajax\_protected\controllers\TumanController.php(28): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\TumanController->actionCreate()
+#8 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#10 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#12 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dili`.`tuman`, CONSTRAINT `viloyat_to_tuman` FOREIGN KEY (`id`) REFERENCES `viloyat` (`id`))
+The SQL being executed was: INSERT INTO `tuman` (`name`, `maydoni`) VALUES ('asaka', '20') in D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Schema.php:678
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php(1304): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tu...')
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Command.php(1099): yii\db\Command->internalExecute('INSERT INTO `tu...')
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\Schema.php(433): yii\db\Command->execute()
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert('tuman', Array)
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#5 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert(true, NULL)
+#6 D:\OSPanel\domains\jadval_ajax\_protected\controllers\TumanController.php(28): yii\db\BaseActiveRecord->save()
+#7 [internal function]: app\controllers\TumanController->actionCreate()
+#8 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#10 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('create', Array)
+#11 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('tuman/create', Array)
+#12 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1452
+    [2] => Cannot add or update a child row: a foreign key constraint fails (`dili`.`tuman`, CONSTRAINT `viloyat_to_tuman` FOREIGN KEY (`id`) REFERENCES `viloyat` (`id`))
+)
+
+2020-11-17 14:24:30 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'nomi' => 'sdsad'
+    'maydoni' => 'asd'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '22'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => '46u3lwngNhhXh8s3plOWuOP-mxoguzyy4Dx-zvZBt5OP3u7ZZIoOdTn2pnHBFu7CjrTPLkzSEeqreRuWsXmHxA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '60351'
+    'REDIRECT_URL' => '/tuman/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/tuman/create'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605612270.014
+    'REQUEST_TIME' => 1605612270
+    'argv' => []
+    'argc' => 0
+]
+2020-11-17 14:38:56 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][error][yii\base\ErrorException:2] yii\base\ErrorException: Invalid argument supplied for foreach() in D:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php:205
+Stack trace:
+#0 D:\OSPanel\domains\jadval_ajax\_protected\views\problem\table.php(205): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\OSPanel\\doma...', 205, Array)
+#1 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(348): require('D:\\OSPanel\\doma...')
+#2 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('D:\\OSPanel\\doma...', Array)
+#3 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('D:\\OSPanel\\doma...', Array, Object(app\controllers\ProblemController))
+#4 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(409): yii\base\View->render('table', Array, Object(app\controllers\ProblemController))
+#5 D:\OSPanel\domains\jadval_ajax\_protected\controllers\ProblemController.php(57): yii\base\Controller->render('table', Array)
+#6 [internal function]: app\controllers\ProblemController->actionTable()
+#7 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#9 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('table', Array)
+#10 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\web\Application.php(104): yii\base\Module->runAction('problem/table', Array)
+#11 D:\OSPanel\domains\jadval_ajax\_protected\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\OSPanel\domains\jadval_ajax\index.php(12): yii\base\Application->run()
+#13 {main}
+2020-11-17 14:38:56 [127.0.0.1][-][l47qa2b82ae7um4n7rsagmb5lrne0d44][info][application] $_GET = []
+
+$_POST = [
+    'startDT' => '2020-06-01'
+    'endDT' => '2020-06-02'
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l47qa2b82ae7um4n7rsagmb5lrne0d44'
+    '_csrf' => '7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"luYNmj8mnqmFgExzmJT4li-XKEeXG80W\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'tab-ajax.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '35'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'rjo8mly0LlsNq7eKXzcvVSR0lTYYxQ_JzelR7kIdoE_CT2XUMd4WNmPa2sw4clcvST7BAnSsIpGGrDS2BSWQGA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_ORIGIN' => 'http://tab-ajax.loc'
+    'HTTP_REFERER' => 'http://tab-ajax.loc/problem/table?startDT=&endDT='
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,la;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'PHPSESSID=l47qa2b82ae7um4n7rsagmb5lrne0d44; _csrf=7f27ef47f9203d281ab857a9e2f4270159be3e4ac6025e5e8121b1da2f6d6f1ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22luYNmj8mnqmFgExzmJT4li-XKEeXG80W%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_7.2-x64\\ext;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear;d:\\ospanel\\modules\\php\\PHP_7.2-x64\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_7.2-x64;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MariaDB-10.3-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_7.0-7.1-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'tab-ajax.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/jadval_ajax'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/jadval_ajax/index.php'
+    'REMOTE_PORT' => '60840'
+    'REDIRECT_URL' => '/problem/table'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/problem/table'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1605613136.821
+    'REQUEST_TIME' => 1605613136
+    'argv' => []
+    'argc' => 0
+]

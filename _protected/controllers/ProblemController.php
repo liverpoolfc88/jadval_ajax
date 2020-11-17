@@ -45,7 +45,8 @@ class ProblemController extends Controller
     }
 
      public function actionTable()
-    { if($_POST){
+    {
+        if($_POST){
             $startDT = $_POST['startDT'];
             $endDT = $_POST['endDT'];
 
@@ -53,7 +54,7 @@ class ProblemController extends Controller
             $jadval = Problem::find()->andFilterWhere(['between', 'date', $startDT,$endDT])->all();
 
             return $this->render('table',[
-                'jadval'=>$jadval
+                'jadval'=>json_encode($jadval)
             ]);
         }
         $jadval = Problem::find()->all();
