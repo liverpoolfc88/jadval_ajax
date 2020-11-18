@@ -8,6 +8,7 @@ use app\models\ProblemSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use \yii\web\Response;
 
 /**
  * ProblemController implements the CRUD actions for Problem model.
@@ -44,24 +45,64 @@ class ProblemController extends Controller
         ]);
     }
 
-     public function actionTable()
+//     public function actionTable()
+//    {
+//        if(isset($_POST)){
+//            $startDT = $_POST['startDT'];
+//            $endDT = $_POST['endDT'];
+//
+//            // $jadval = ProblemMonitorings::find()->andFilterWhere(['between', 'date', $startDT,$endDT])->all();
+//            $jadval = Problem::find()->andFilterWhere(['between', 'date', $startDT,$endDT])->all();
+////            var_dump($jadval); die();
+//            return $this->render('table',[
+//                'jadvall'=>json_encode($jadval),
+//                'jadval'=>$jadval
+//
+//            ]);
+//        }
+//        $jadval = Problem::find()->all();
+//
+//        return $this->render('table',[
+////            'jadval'=>$jadval
+//        ]);
+//    }
+
+
+    public function actionTable()
     {
-        if($_POST){
-            $startDT = $_POST['startDT'];
-            $endDT = $_POST['endDT'];
+        $request = Yii::$app->request;
 
-            // $jadval = ProblemMonitorings::find()->andFilterWhere(['between', 'date', $startDT,$endDT])->all();
+        if($request->post()){
+            $startDT = $request->post('startDT');
+            $endDT = $request->post('endDT');
+
             $jadval = Problem::find()->andFilterWhere(['between', 'date', $startDT,$endDT])->all();
+//            $jadval = Problem::find()->where(['user_id'=>8])
+//                ->select(['sectors.name'])
+//                ->leftJoin('sectors', 'problem.sector = sectors.id')
+//                ->all();
 
-            return $this->render('table',[
-                'jadval'=>json_encode($jadval)
-            ]);
+
+//            $jadval = Problem::find()
+//                ->where(['user_id'=>8])
+//                ->joinWith('uchastka')
+//                ->all();
+
+
+            \Yii::$app->response->format = Response::FORMAT_JSON;
+
+//            return $this->render('table',[
+//                'jadval'=>$jadval
+//            ]);
+
+            return [
+                'jadval'=>$jadval
+            ];
         }
-        $jadval = Problem::find()->all();
+        $jadval = Problem::find()->where(['user_id'=>8])->all();
+//        \Yii::$app->response->format = Response::FORMAT_JSON;
 
-        return $this->render('table',[
-//            'jadval'=>$jadval
-        ]);
+        return $this->render('table');
     }
 
     /**

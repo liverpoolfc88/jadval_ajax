@@ -95,27 +95,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 </script>
 
-<!--<input class="jadval" type="button" value="button">-->
-<!---->
-<!--<section style="padding: 50px 0">-->
-<!--    <form action="/action_page.php">-->
-<!--    <form>-->
-<!--        <input type="date" id="startDT" name="startDT">-->
-<!--        <input type="date" id="endDT" name="endDT">-->
-<!--        <input class="jadval" type="button" value="bossss">-->
-<!--    </form>-->
-<!--</section>-->
-<section style="padding-bottom: 50px" >
-    <div >
-        <p class="salom">LiverpoolFC </p>
-    </div>
-    <div >
-        <input type="text" name="nomi" class="name">
-        <input type="text" name="maydoni" class="maydon">
-        <input type="button" class="ok" value="ok">
-    </div>
 
-</section>
 
 <script>
     $(function(){
@@ -123,6 +103,7 @@ $this->params['breadcrumbs'][] = $this->title;
             event.preventDefault();
             $("#loading").show();
             $("#section").show();
+            // alert('sds22212');
 
             $.ajax({
                 method: "POST",
@@ -132,10 +113,39 @@ $this->params['breadcrumbs'][] = $this->title;
                 },
                 dataType: 'json',
                 url: '/problem/table',
-                succes: function (data) {
-                    console.log(data);
+                success: function (data) {
+                    // var table = JSON.parse(data);
+                    var table = data.jadval;
+                    // var jadval = '';
+                    // for (var i in table){
+                    //     jadval+='<tr><td>'+table['i']+'</td>';
+                    //     jadval+='<td>'+table.date+'</td>';
+                    //     jadval+='<td>'+table['shift']+'</td></tr>';
+                    // }
+                    $.each(table, function(key, value) {
+                        $("#tableajax").append(
+                            "<tr><td>" + key+1 + "</td>" +
+                            "<td>" + value.date + '</td>'+
+                            "<td>" + value.sector + '</td>'+
+                            "<td>" + value.shift + '</td>'+
+                            "<td>" + value.model + '</td>'+
+                            "<td>" + value.res_person_tabel + '</td>'+
+                            "<td>" + value.bolim + '</td>'+
+                            "<td>" + value.PO + '</td>'+
+                            "</tr>");
+                            // "<tr><td>" + key+1 + "</td>");
+                            // "<td>" + value.date + "</td>");
+                            // "<td>" + value.uchastka.name + "</td>");
+                            // "<td>" + value.shift + "</td>");
+                            // "<td>" + value.model + "</td></tr>");
+                    });
+                    // $('#tableajax').html(jadval);
+                    $("#loading").hide();
+                    console.log(data.jadval);
+                    // alert('sds2222');
                 },
                 error:function(e){
+                    // alert('sds');
                     console.log(e);
                 }.bind(this),
             });
@@ -149,6 +159,8 @@ $this->params['breadcrumbs'][] = $this->title;
     });
     function xodisa() {
         $(".salom").html('Liverpoolfc CHEMPION')
+
+        alert('saqlandi');
         $.ajax({
             method: "POST",
 
@@ -159,6 +171,7 @@ $this->params['breadcrumbs'][] = $this->title;
             dataType: 'json',
             url: '/tuman/create',
             succes: function (data) {
+
                 console.log(data);
             },
             error:function(e){
@@ -167,7 +180,11 @@ $this->params['breadcrumbs'][] = $this->title;
         });
     }
 </script>
+<?// $jadval=json_decode('jadval');
+//var_dump($jadval); die();
 
+
+?>
 
 <section >
     <div id="loading" style="display: none">Kuting....</div>
@@ -187,49 +204,87 @@ $this->params['breadcrumbs'][] = $this->title;
                         <th>Tabel raqam</th>
                         <th>Bo'lim nomi</th>
                         <th>P/O</th>
-                        <th>Win kod</th>
-                        <th>Defect cod</th>
-                        <th>Sarflangan vaqt</th>
-                        <th>Ism Sharifi</th>
-                        <th>Muommo</th>
-                        <th>Izox</th>
-                        <th>Ochilgan vaqti</th>
-                        <th>Yopilgan vaqti</th>
-                        <th>Xarajat qiymati</th>
-                        <th>Nuqson xajmi</th>
+
 
                     </tr>
                 </thead>
-                <tbody style="text-align: center;">
-                <? if ($jadval){ ?>
-                <? foreach ($jadval as $key => $value){ ?>
-                <tr>
-                    <td><?=$key+1?></td>
-                    <td><?=$value->date?></td>
-                    <td><?=$value->uchastka->name?></td>
-                    <td><?=$value->shift?></td>
-                    <td><?=$value->model?></td>
-                    <td><?=$value->res_person_tabel?></td>
-                    <td><?=$value->bolim->name?></td>
-                    <td><?=$value->PO?></td>
-                    <td><?=$value->winno?></td>
-                    <td><?=$value->defectName->tag_id?></td>
-                    <td><?=$value->spent_on?></td>
-                    <td>Dehqonov Sadorbek</td>
-                    <td><?=$value->problem?></td>
-                    <td><?=$value->comment?></td>
-                    <td><?=$value->created_at?></td>
-                    <td><?=$value->finished_at?></td>
-                    <td><?=$value->money_spent?></td>
-                    <td><?=$value->repair_case?></td>
-                </tr>
-                <?}}?>
+                <tbody style="text-align: center;" id="tableajax">
+
                 </tbody>
             </table>
 
         </div>
     </div>
 </section>
+<section style="padding-top: 50px" >
+    <div >
+        <p class="salom">LiverpoolFC </p>
+    </div>
+    <div >
+        <input type="text" name="nomi" class="name">
+        <input type="text" name="maydoni" class="maydon">
+        <input type="button" class="ok" value="ok">
+    </div>
+
+</section>
+
+<!--<section >-->
+<!--    <div class="container-fluid">-->
+<!--        <div style="overflow-x:auto;" id="stil" class="row">-->
+<!--            <table border="1" id="tblData"  class=" table table-striped">-->
+<!--                <thead style="text-align: center; width: 100%" class="thead">-->
+<!--                <tr>-->
+<!--                    <th>T/R</th>-->
+<!--                    <th>Sana</th>-->
+<!--                    <th>Uchastka</th>-->
+<!--                    <th>Smena</th>-->
+<!--                    <th>Model</th>-->
+<!--                    <th>Tabel raqam</th>-->
+<!--                    <th>Bo'lim nomi</th>-->
+<!--                    <th>P/O</th>-->
+<!--                    <th>Win kod</th>-->
+<!--                    <th>Defect cod</th>-->
+<!--                    <th>Sarflangan vaqt</th>-->
+<!--                    <th>Ism Sharifi</th>-->
+<!--                    <th>Muommo</th>-->
+<!--                    <th>Izox</th>-->
+<!--                    <th>Ochilgan vaqti</th>-->
+<!--                    <th>Yopilgan vaqti</th>-->
+<!--                    <th>Xarajat qiymati</th>-->
+<!--                    <th>Nuqson xajmi</th>-->
+<!---->
+<!--                </tr>-->
+<!--                </thead>-->
+<!--                <tbody style="text-align: center;" id="tableajax">-->
+<!--                --><?// if ($jadval){ ?>
+<!--                    --><?// foreach ($jadval as $key => $value){ ?>
+<!--                        <tr>-->
+<!--                            <td>--><?//=$key+1?><!--</td>-->
+<!--                            <td>--><?//=$value->date?><!--</td>-->
+<!--                            <td>--><?//=$value->uchastka->name?><!--</td>-->
+<!--                            <td>--><?//=$value->shift?><!--</td>-->
+<!--                            <td>--><?//=$value->model?><!--</td>-->
+<!--                            <td>--><?//=$value->res_person_tabel?><!--</td>-->
+<!--                            <td>--><?//=$value->bolim->name?><!--</td>-->
+<!--                            <td>--><?//=$value->PO?><!--</td>-->
+<!--                            <td>--><?//=$value->winno?><!--</td>-->
+<!--                            <td>--><?//=$value->defectName->tag_id?><!--</td>-->
+<!--                            <td>--><?//=$value->spent_on?><!--</td>-->
+<!--                            <td>Dehqonov Sadorbek</td>-->
+<!--                            <td>--><?//=$value->problem?><!--</td>-->
+<!--                            <td>--><?//=$value->comment?><!--</td>-->
+<!--                            <td>--><?//=$value->created_at?><!--</td>-->
+<!--                            <td>--><?//=$value->finished_at?><!--</td>-->
+<!--                            <td>--><?//=$value->money_spent?><!--</td>-->
+<!--                            <td>--><?//=$value->repair_case?><!--</td>-->
+<!--                        </tr>-->
+<!--                    --><?//}}?>
+<!--                </tbody>-->
+<!--            </table>-->
+<!---->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 
 
 <style type="text/css">
