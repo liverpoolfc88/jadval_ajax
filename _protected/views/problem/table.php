@@ -163,7 +163,6 @@ $this->params['breadcrumbs'][] = $this->title;
         alert('saqlandi');
         $.ajax({
             method: "POST",
-
             data: {
                 'nomi':$('.name').val(),
                 'maydoni':$('.maydon').val()
