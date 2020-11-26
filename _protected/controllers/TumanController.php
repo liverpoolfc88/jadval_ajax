@@ -14,8 +14,6 @@ class TumanController extends \yii\web\Controller
     {
         $tuman = new Tuman();
 //        var_dump($_POST); die();
-
-
 //        $tuman->name = $_POST['nomi'];
 //        $tuman->maydoni = $_POST['maydoni'];
 
