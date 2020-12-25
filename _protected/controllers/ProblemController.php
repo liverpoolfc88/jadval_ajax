@@ -82,15 +82,11 @@ class ProblemController extends Controller
 //                ->leftJoin('sectors', 'problem.sector = sectors.id')
 //                ->all();
 
-
 //            $jadval = Problem::find()
 //                ->where(['user_id'=>8])
 //                ->joinWith('uchastka')
 //                ->all();
-
-
             \Yii::$app->response->format = Response::FORMAT_JSON;
-
 //            return $this->render('table',[
 //                'jadval'=>$jadval
 //            ]);

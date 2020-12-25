@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <div style="padding-bottom: 50px" class="col-md-12">
-    <h3 style="text-align:center">  Vaqt oralig'ida ma'lumotlarni excelga export qilish!</h3>
+    <h3 style="text-align:center"> Vaqt oralig'ida ma'lumotlarni excelga export qilish!</h3>
     <?php $form = ActiveForm::begin([
 //                        'method' => 'post',
 //            'action' => ['exell'],
@@ -26,13 +26,13 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= DatePicker::widget([
             'options' => ['placeholder' => 'Dan ',
                 // 'value' => date('Y-m-d')
-                'class'=> 'inputform',
-                'id'=>'startDT'
+                'class' => 'inputform',
+                'id' => 'startDT'
             ],
-            'name'=> 'startDT',
+            'name' => 'startDT',
             'pluginOptions' => [
                 'autoclose' => true,
-                'format' =>'yyyy-mm-dd'
+                'format' => 'yyyy-mm-dd'
             ]
         ]); ?>
     </div>
@@ -40,48 +40,48 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= DatePicker::widget([
             'options' => ['placeholder' => 'Gacha',
                 // 'value' => date('Y-m-d')
-                'class'=> 'inputform',
-                'id'=>'endDT'
+                'class' => 'inputform',
+                'id' => 'endDT'
             ],
-            'name'=> 'endDT',
+            'name' => 'endDT',
             'pluginOptions' => [
                 'autoclose' => true,
-                'format' =>'yyyy-mm-dd'
+                'format' => 'yyyy-mm-dd'
             ]
         ]); ?>
     </div>
     <div class="col-md-3">
-<!--        --><?//= Html::submitButton('Qidirish', ['class' => ' btn btn-primary']) ?>
+        <!--        --><? //= Html::submitButton('Qidirish', ['class' => ' btn btn-primary']) ?>
         <input class="jadval btn btn-primary" type="button" value="bossss">
     </div>
     <?php ActiveForm::end(); ?>
 
     <div class="col-md-3">
-        <a  class="btn btn-primary" onclick="exportTableToExcel('tblData')" href="">EXELGA KO'CHIRISH</a>
+        <a class="btn btn-primary" onclick="exportTableToExcel('tblData')" href="">EXELGA KO'CHIRISH</a>
     </div>
 </div>
 
 <script>
-    function exportTableToExcel(tableID, filename = ''){
+    function exportTableToExcel(tableID, filename = '') {
         var downloadLink;
         var dataType = 'application/vnd.ms-excel';
         var tableSelect = document.getElementById(tableID);
         var tableHTML = tableSelect.outerHTML.replace(/ /g, '%20');
 
         // Specify file name
-        filename = filename?filename+'.xls':'excel_data.xls';
+        filename = filename ? filename + '.xls' : 'excel_data.xls';
 
         // Create download link element
         downloadLink = document.createElement("a");
 
         document.body.appendChild(downloadLink);
 
-        if(navigator.msSaveOrOpenBlob){
+        if (navigator.msSaveOrOpenBlob) {
             var blob = new Blob(['\ufeff', tableHTML], {
                 type: dataType
             });
-            navigator.msSaveOrOpenBlob( blob, filename);
-        }else{
+            navigator.msSaveOrOpenBlob(blob, filename);
+        } else {
             // Create a link to the file
             downloadLink.href = 'data:' + dataType + ', ' + tableHTML;
 
@@ -96,9 +96,8 @@ $this->params['breadcrumbs'][] = $this->title;
 </script>
 
 
-
 <script>
-    $(function(){
+    $(function () {
         $(".jadval").click(function (event) {
             event.preventDefault();
             $("#loading").show();
@@ -108,8 +107,8 @@ $this->params['breadcrumbs'][] = $this->title;
             $.ajax({
                 method: "POST",
                 data: {
-                    'startDT':$('#startDT').val(),
-                    'endDT':$('#endDT').val()
+                    'startDT': $('#startDT').val(),
+                    'endDT': $('#endDT').val()
                 },
                 dataType: 'json',
                 url: '/problem/table',
@@ -122,29 +121,29 @@ $this->params['breadcrumbs'][] = $this->title;
                     //     jadval+='<td>'+table.date+'</td>';
                     //     jadval+='<td>'+table['shift']+'</td></tr>';
                     // }
-                    $.each(table, function(key, value) {
+                    $.each(table, function (key, value) {
                         $("#tableajax").append(
-                            "<tr><td>" + key+1 + "</td>" +
-                            "<td>" + value.date + '</td>'+
-                            "<td>" + value.sector + '</td>'+
-                            "<td>" + value.shift + '</td>'+
-                            "<td>" + value.model + '</td>'+
-                            "<td>" + value.res_person_tabel + '</td>'+
-                            "<td>" + value.bolim + '</td>'+
-                            "<td>" + value.PO + '</td>'+
+                            "<tr><td>" + key + 1 + "</td>" +
+                            "<td>" + value.date + '</td>' +
+                            "<td>" + value.sector + '</td>' +
+                            "<td>" + value.shift + '</td>' +
+                            "<td>" + value.model + '</td>' +
+                            "<td>" + value.res_person_tabel + '</td>' +
+                            "<td>" + value.bolim + '</td>' +
+                            "<td>" + value.PO + '</td>' +
                             "</tr>");
-                            // "<tr><td>" + key+1 + "</td>");
-                            // "<td>" + value.date + "</td>");
-                            // "<td>" + value.uchastka.name + "</td>");
-                            // "<td>" + value.shift + "</td>");
-                            // "<td>" + value.model + "</td></tr>");
+                        // "<tr><td>" + key+1 + "</td>");
+                        // "<td>" + value.date + "</td>");
+                        // "<td>" + value.uchastka.name + "</td>");
+                        // "<td>" + value.shift + "</td>");
+                        // "<td>" + value.model + "</td></tr>");
                     });
                     // $('#tableajax').html(jadval);
                     $("#loading").hide();
                     console.log(data.jadval);
                     // alert('sds2222');
                 },
-                error:function(e){
+                error: function (e) {
                     // alert('sds');
                     console.log(e);
                 }.bind(this),
@@ -157,6 +156,7 @@ $this->params['breadcrumbs'][] = $this->title;
         // $(".name").bind('blur', xodisa)
         $(".ok").bind('click', xodisa)
     });
+
     function xodisa() {
         $(".salom").html('Liverpoolfc CHEMPION')
 
@@ -164,8 +164,8 @@ $this->params['breadcrumbs'][] = $this->title;
         $.ajax({
             method: "POST",
             data: {
-                'nomi':$('.name').val(),
-                'maydoni':$('.maydon').val()
+                'nomi': $('.name').val(),
+                'maydoni': $('.maydon').val()
             },
             dataType: 'json',
             url: '/tuman/create',
@@ -173,39 +173,39 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 console.log(data);
             },
-            error:function(e){
+            error: function (e) {
                 console.log(e);
             }.bind(this),
         });
     }
 </script>
-<?// $jadval=json_decode('jadval');
+<? // $jadval=json_decode('jadval');
 //var_dump($jadval); die();
 
 
 ?>
 
-<section >
+<section>
     <div id="loading" style="display: none">Kuting....</div>
 </section>
 
-<section  style="display: none" id="section">
+<section style="display: none" id="section">
     <div class="container-fluid">
         <div style="overflow-x:auto;" id="stil" class="row">
-            <table border="1" id="tblData"  class=" table table-striped">
+            <table border="1" id="tblData" class=" table table-striped">
                 <thead style="text-align: center; width: 100%" class="thead">
-                    <tr>
-                        <th>T/R</th>
-                        <th>Sana</th>
-                        <th>Uchastka</th>
-                        <th>Smena</th>
-                        <th>Model</th>
-                        <th>Tabel raqam</th>
-                        <th>Bo'lim nomi</th>
-                        <th>P/O</th>
+                <tr>
+                    <th>T/R</th>
+                    <th>Sana</th>
+                    <th>Uchastka</th>
+                    <th>Smena</th>
+                    <th>Model</th>
+                    <th>Tabel raqam</th>
+                    <th>Bo'lim nomi</th>
+                    <th>P/O</th>
 
 
-                    </tr>
+                </tr>
                 </thead>
                 <tbody style="text-align: center;" id="tableajax">
 
@@ -215,11 +215,11 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
     </div>
 </section>
-<section style="padding-top: 50px" >
-    <div >
+<section style="padding-top: 50px">
+    <div>
         <p class="salom">LiverpoolFC </p>
     </div>
-    <div >
+    <div>
         <input type="text" name="nomi" class="name">
         <input type="text" name="maydoni" class="maydon">
         <input type="button" class="ok" value="ok">
@@ -255,29 +255,29 @@ $this->params['breadcrumbs'][] = $this->title;
 <!--                </tr>-->
 <!--                </thead>-->
 <!--                <tbody style="text-align: center;" id="tableajax">-->
-<!--                --><?// if ($jadval){ ?>
-<!--                    --><?// foreach ($jadval as $key => $value){ ?>
+<!--                --><? // if ($jadval){ ?>
+<!--                    --><? // foreach ($jadval as $key => $value){ ?>
 <!--                        <tr>-->
-<!--                            <td>--><?//=$key+1?><!--</td>-->
-<!--                            <td>--><?//=$value->date?><!--</td>-->
-<!--                            <td>--><?//=$value->uchastka->name?><!--</td>-->
-<!--                            <td>--><?//=$value->shift?><!--</td>-->
-<!--                            <td>--><?//=$value->model?><!--</td>-->
-<!--                            <td>--><?//=$value->res_person_tabel?><!--</td>-->
-<!--                            <td>--><?//=$value->bolim->name?><!--</td>-->
-<!--                            <td>--><?//=$value->PO?><!--</td>-->
-<!--                            <td>--><?//=$value->winno?><!--</td>-->
-<!--                            <td>--><?//=$value->defectName->tag_id?><!--</td>-->
-<!--                            <td>--><?//=$value->spent_on?><!--</td>-->
+<!--                            <td>--><? //=$key+1?><!--</td>-->
+<!--                            <td>--><? //=$value->date?><!--</td>-->
+<!--                            <td>--><? //=$value->uchastka->name?><!--</td>-->
+<!--                            <td>--><? //=$value->shift?><!--</td>-->
+<!--                            <td>--><? //=$value->model?><!--</td>-->
+<!--                            <td>--><? //=$value->res_person_tabel?><!--</td>-->
+<!--                            <td>--><? //=$value->bolim->name?><!--</td>-->
+<!--                            <td>--><? //=$value->PO?><!--</td>-->
+<!--                            <td>--><? //=$value->winno?><!--</td>-->
+<!--                            <td>--><? //=$value->defectName->tag_id?><!--</td>-->
+<!--                            <td>--><? //=$value->spent_on?><!--</td>-->
 <!--                            <td>Dehqonov Sadorbek</td>-->
-<!--                            <td>--><?//=$value->problem?><!--</td>-->
-<!--                            <td>--><?//=$value->comment?><!--</td>-->
-<!--                            <td>--><?//=$value->created_at?><!--</td>-->
-<!--                            <td>--><?//=$value->finished_at?><!--</td>-->
-<!--                            <td>--><?//=$value->money_spent?><!--</td>-->
-<!--                            <td>--><?//=$value->repair_case?><!--</td>-->
+<!--                            <td>--><? //=$value->problem?><!--</td>-->
+<!--                            <td>--><? //=$value->comment?><!--</td>-->
+<!--                            <td>--><? //=$value->created_at?><!--</td>-->
+<!--                            <td>--><? //=$value->finished_at?><!--</td>-->
+<!--                            <td>--><? //=$value->money_spent?><!--</td>-->
+<!--                            <td>--><? //=$value->repair_case?><!--</td>-->
 <!--                        </tr>-->
-<!--                    --><?//}}?>
+<!--                    --><? //}}?>
 <!--                </tbody>-->
 <!--            </table>-->
 <!---->
@@ -287,7 +287,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <style type="text/css">
-    .thead{
+    .thead {
         padding-top: 12px;
         padding-bottom: 12px;
         text-align: left;
@@ -296,14 +296,17 @@ $this->params['breadcrumbs'][] = $this->title;
         padding: 8px;
         border-spacing: 2px;
     }
+
     thead tr th {
         border: 1px solid #ddd !important;
         text-align: center;
     }
+
     tbody tr th {
         border: 1px solid #ddd !important;
         text-align: center;
     }
+
     tbody tr td {
         border: 1px solid #ddd !important;
         text-align: center;
@@ -317,6 +320,6 @@ $this->params['breadcrumbs'][] = $this->title;
 <script>
     var w = window.innerWidth;
     // var h = window.innerHeight-190;
-    var h = window.innerHeight-280;
-    document.getElementById("stil").style.height = h+"px";
+    var h = window.innerHeight - 280;
+    document.getElementById("stil").style.height = h + "px";
 </script>

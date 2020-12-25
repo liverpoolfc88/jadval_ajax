@@ -2,6 +2,7 @@
 namespace app\controllers;
 
 use app\models\User;
+use app\models\JadvalRead;
 use app\models\LoginForm;
 use app\models\AccountActivation;
 use app\models\PasswordResetRequestForm;
@@ -15,6 +16,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use Yii;
+use yii\web\Response;
 
 /**
  * Site controller.
@@ -89,14 +91,38 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionAbout()
+    {
+        return $this->render('about');
+    }
+
     /**
      * Displays the about static page.
      *
      * @return string
      */
-    public function actionAbout()
+//    public $enableCsrfValidation=false;
+
+
+    public function actionAjax()
     {
-        return $this->render('about');
+        \Yii::$app->response->format = Response::FORMAT_JSON;
+        $data1 = $_GET['data1'];
+        $data2 = $_GET['data2'];
+        $input = $_GET['input'];
+
+        $count = count($input);
+//        print_r($count); die();
+        for ($x = 0; $x < $count; $x++) {
+            $model = new JadvalRead();
+            $model->name1 = $data1[$x];
+            $model->name2 = $data2[$x];
+            $model->input = $input[$x];
+            $model->save();
+
+        }
+        Yii::$app->response->format = 'json';
+        return ['result' => 'success'];
     }
 
     /**

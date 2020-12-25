@@ -43,7 +43,7 @@ $action = Yii::$app->controller->id;
 
     // we do not need to display About and Contact pages to employee+ roles
     if (!Yii::$app->user->can('employee')) {
-        $menuItems[] = ['label' => Yii::t('app', 'About'), 'url' => ['/site/about']];
+        $menuItems[] = ['label' => Yii::t('app', 'tablitsa o`qish'), 'url' => ['/site/about']];
         $menuItems[] = ['label' => Yii::t('app', 'Contact'), 'url' => ['/site/contact']];
     }
 

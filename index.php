@@ -10,3 +10,5 @@ require(__DIR__ . '/_protected/vendor/yiisoft/yii2/Yii.php');
 $config = require(__DIR__ . '/_protected/config/web.php');
 
 (new yii\web\Application($config))->run();
+
+//header("location:https://www.websar.uz");
