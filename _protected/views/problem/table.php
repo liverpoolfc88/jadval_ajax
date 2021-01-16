@@ -179,9 +179,9 @@ $this->params['breadcrumbs'][] = $this->title;
         });
     }
 </script>
+
 <? // $jadval=json_decode('jadval');
 //var_dump($jadval); die();
-
 
 ?>
 
@@ -203,15 +203,11 @@ $this->params['breadcrumbs'][] = $this->title;
                     <th>Tabel raqam</th>
                     <th>Bo'lim nomi</th>
                     <th>P/O</th>
-
-
                 </tr>
                 </thead>
                 <tbody style="text-align: center;" id="tableajax">
-
                 </tbody>
             </table>
-
         </div>
     </div>
 </section>
@@ -224,7 +220,6 @@ $this->params['breadcrumbs'][] = $this->title;
         <input type="text" name="maydoni" class="maydon">
         <input type="button" class="ok" value="ok">
     </div>
-
 </section>
 
 <!--<section >-->
@@ -286,6 +281,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <!--</section>-->
 
 
+
 <style type="text/css">
     .thead {
         padding-top: 12px;
@@ -296,27 +292,20 @@ $this->params['breadcrumbs'][] = $this->title;
         padding: 8px;
         border-spacing: 2px;
     }
-
     thead tr th {
         border: 1px solid #ddd !important;
         text-align: center;
     }
-
     tbody tr th {
         border: 1px solid #ddd !important;
         text-align: center;
     }
-
     tbody tr td {
         border: 1px solid #ddd !important;
         text-align: center;
     }
-
 </style>
 
-<!---->
-<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
 <script>
     var w = window.innerWidth;
     // var h = window.innerHeight-190;
